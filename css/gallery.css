@@ -1,0 +1,77 @@
+#imgGallery {
+	height: 70vh;
+	background: url(/assets/img/truckfighters/Truckfighters_0430.png) center fixed;
+	background-position: 0% 0%;
+	background-size: cover;
+	border-bottom: 2px solid red;
+}
+
+.bandImg {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-auto-rows: 1fr;
+}
+
+.bandImg img{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 100%; 
+	object-fit: cover;
+}
+
+.bandImg img:hover {
+	cursor: pointer;
+	border: red solid 3px;
+}
+
+#slideshow {
+	height: 100vh;
+	width: 100vw;
+	background-color: #181818;
+	overflow: hidden;
+	display: none;
+}
+
+#closingBtn {
+	position: absolute;
+	left: 1.5%;
+	top: 3%;
+}
+
+#prevBtn {
+	position: absolute;
+	left: 0;
+	top: 45%;
+}
+
+#nextBtn {
+	position: absolute;
+	right: 0;
+	top: 45%;
+}
+
+#closingBtn:hover {
+	cursor: pointer;
+}
+
+#prevBtn:hover {
+	cursor: pointer;
+}
+
+#nextBtn:hover {
+	cursor: pointer;
+}
+
+#imgDescription {
+	position: absolute;
+	right: 1.5%;
+	top: 3%;
+	display: block;
+	margin: 0;
+	color: white;
+}
