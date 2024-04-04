@@ -1,7 +1,7 @@
-downloads/*.pdf
-images/*.png
-images/*.gif
-img/*.jpg
-img/*.png
-img/*.svg
-img/*.webp
+assets/downloads/*.pdf
+assets/images/*.png
+assets/images/*.gif
+assets/img/*.jpg
+assets/img/*.png
+assets/img/*.svg
+assets/img/*.webp
