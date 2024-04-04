@@ -1,0 +1,1811 @@
+{
+    "bandNames": [
+        {
+            "name": "Astodan",
+            "photos": true,
+            "video": true,
+            "videoLink": "https://youtu.be/--xOMN-R1YI",
+            "images": [
+                {
+                    "source": "assets/img/astodan/Astodan_0519.webp"
+                },
+                {
+                    "source": "assets/img/astodan/Astodan_0575.webp"
+                },
+                {
+                    "source": "assets/img/astodan/Astodan_0580.webp"
+                },
+                {
+                    "source": "assets/img/astodan/Astodan_0585.webp"
+                },
+                {
+                    "source": "assets/img/astodan/Astodan_0588.webp"
+                }
+            ]
+        },
+        {
+            "name": "Cult Of Luna",
+            "photos": true,
+            "interview": true,
+            "interviewLink": "https://youtu.be/rR35a5AIEt8",
+            "highlight": true,
+            "images": [
+                {
+                    "source": "assets/img/col/col_1066.webp"
+                },
+                {
+                    "source": "assets/img/col/col_1067.webp"
+                },
+                {
+                    "source": "assets/img/col/col_1071.webp"
+                },
+                {
+                    "source": "assets/img/col/col_1073.png"
+                },
+                {
+                    "source": "assets/img/col/col_1077.webp"
+                },
+                {
+                    "source": "assets/img/col/col_1082.png"
+                },
+                {
+                    "source": "assets/img/col/col_1121.webp"
+                },
+                {
+                    "source": "assets/img/col/col_1124.webp"
+                },
+                {
+                    "source": "assets/img/col/col_1125.png"
+                }
+            ]
+        },
+        {
+            "name": "IIVII"
+        },
+        {
+            "name": "1000mods"
+        },
+        {
+            "name": "1914"
+        },
+        {
+            "name": "Abbath"
+        },
+        {
+            "name": "Aborted"
+        },
+        {
+            "name": "Acid mammoth"
+        },
+        {
+            "name": "A Day To Remember"
+        },
+        {
+            "name": "Adorior"
+        },
+        {
+            "name": "Ahab"
+        },
+        {
+            "name": "Agent Fresco"
+        },
+        {
+            "name": "The Agonist"
+        },
+        {
+            "name": "August Burns Red"
+        },
+        {
+            "name": "Alien Weaponry"
+        },
+        {
+            "name": "All Pigs Must Die"
+        },
+        {
+            "name": "Amenra"
+        },
+        {
+            "name": "Amon Amarth"
+        },
+        {
+            "name": "Amorphis"
+        },
+        {
+            "name": "Anaal Nathrakh"
+        },
+        {
+            "name": "Animals as Leaders"
+        },
+        {
+            "name": "Appalaches"
+        },
+        {
+            "name": "Archispire"
+        },
+        {
+            "name": "Architects"
+        },
+        {
+            "name": "Arms"
+        },
+        {
+            "name": "The Arson Project"
+        },
+        {
+            "name": "A Storm Of Light"
+        },
+        {
+            "name": "The Atomic Bitchwax"
+        },
+        {
+            "name": "Atonia"
+        },
+        {
+            "name": "At The Gates"
+        },
+        {
+            "name": "At The Drive-In"
+        },
+        {
+            "name": "Autopsy"
+        },
+        {
+            "name": "Author & Punisher"
+        },
+        {
+            "name": "Azusa"
+        },
+        {
+            "name": "Baroness",
+            "highlight": true
+        },
+        {
+            "name": "Barrens"
+        },
+        {
+            "name": "Beaten To Death"
+        },
+        {
+            "name": "Being As An Ocean"
+        },
+        {
+            "name": "Be'lakor",
+            "highlight": true
+        },
+        {
+            "name": "Belzebong"
+        },
+        {
+            "name": "Benediction"
+        },
+        {
+            "name": "Benighted"
+        },
+        {
+            "name": "La Bestia De Gevaudan"
+        },
+        {
+            "name": "Between The Buried And Me"
+        },
+        {
+            "name": "Beyond Creation"
+        },
+        {
+            "name": "Biohazard"
+        },
+        {
+            "name": "Birds In Row"
+        },
+        {
+            "name": "The Black Dhalia Murder"
+        },
+        {
+            "name": "Black Kites"
+        },
+        {
+            "name": "Black Light Burns"
+        },
+        {
+            "name": "Blackwater Holylight"
+        },
+        {
+            "name": "Bloodbath"
+        },
+        {
+            "name": "Blood Incantation"
+        },
+        {
+            "name": "Blood Red Throne"
+        },
+        {
+            "name": "The Body x Full of Hell"
+        },
+        {
+            "name": "Borknagar"
+        },
+        {
+            "name": "( B O L T )"
+        },
+        {
+            "name": "Bongripper"
+        },
+        {
+            "name": "Bossk"
+        },
+        {
+            "name": "Boss Keloid"
+        },
+        {
+            "name": "Botch",
+            "highlight": true
+        },
+        {
+            "name": "Breakdown Of Sanity"
+        },
+        {
+            "name": "Brian jonestown Massacre"
+        },
+        {
+            "name": "Briqueville"
+        },
+        {
+            "name": "Broken Hope"
+        },
+        {
+            "name": "Brought By Pain"
+        },
+        {
+            "name": "Brujeria"
+        },
+        {
+            "name": "Brutal Sphincter"
+        },
+        {
+            "name": "Cadaveric Incubator"
+        },
+        {
+            "name": "Callejon"
+        },
+        {
+            "name": "Caliban"
+        },
+        {
+            "name": "Car Bomb"
+        },
+        {
+            "name": "Carcass"
+        },
+        {
+            "name": "Carnifex"
+        },
+        {
+            "name": "Carpenter Brut"
+        },
+        {
+            "name": "Caspian"
+        },
+        {
+            "name": "Cattle Decapitation"
+        },
+        {
+            "name": "Cave"
+        },
+        {
+            "name": "Cave In"
+        },
+        {
+            "name": "Celestial Wolves"
+        },
+        {
+            "name": "Cephalic Carnage"
+        },
+        {
+            "name": "Chelsea Wolfe"
+        },
+        {
+            "name": "Cloud Rat"
+        },
+        {
+            "name": "Clutch"
+        },
+        {
+            "name": "Color Haze"
+        },
+        {
+            "name": "Conan"
+        },
+        {
+            "name": "Confession"
+        },
+        {
+            "name": "Conjurer"
+        },
+        {
+            "name": "The Contortionist"
+        },
+        {
+            "name": "Converge"
+        },
+        {
+            "name": "Combichrist"
+        },
+        {
+            "name": "Corrision of conformity"
+        },
+        {
+            "name": "Cult Of Luna & Julie Christmas"
+        },
+        {
+            "name": "Cranial"
+        },
+        {
+            "name": "Crowbar"
+        },
+        {
+            "name": "Crown Compass"
+        },
+        {
+            "name": "Crushing Caspers"
+        },
+        {
+            "name": "Cryptopsy"
+        },
+        {
+            "name": "Danzig"
+        },
+        {
+            "name": "Daughters"
+        },
+        {
+            "name": "Dead Cross"
+        },
+        {
+            "name": "Deafkids x Petbrick"
+        },
+        {
+            "name": "Decapitated"
+        },
+        {
+            "name": "Defeater"
+        },
+        {
+            "name": "Deftones"
+        },
+        {
+            "name": "Deicide"
+        },
+        {
+            "name": "Deitus"
+        },
+        {
+            "name": "Demolition Hammer"
+        },
+        {
+            "name": "Depresy"
+        },
+        {
+            "name": "Destrage"
+        },
+        {
+            "name": "The Devil Wears Prada"
+        },
+        {
+            "name": "Devil You Know"
+        },
+        {
+            "name": "De Zafra Ridge"
+        },
+        {
+            "name": "THE DILLINGER ESCAPE PLAN",
+            "highlight": true
+        },
+        {
+            "name": "Disillusion"
+        },
+        {
+            "name": "Dismember"
+        },
+        {
+            "name": "Dodecahedron"
+        },
+        {
+            "name": "Dool"
+        },
+        {
+            "name": "Doolhof"
+        },
+        {
+            "name": "Dopethrone"
+        },
+        {
+            "name": "Dvne"
+        },
+        {
+            "name": "Dying Fetus",
+            "highlight": true
+        },
+        {
+            "name": "Dystopia"
+        },
+        {
+            "name": "Dödsrit"
+        },
+        {
+            "name": "Earthless"
+        },
+        {
+            "name": "Eisbrecher"
+        },
+        {
+            "name": "Ektomorf"
+        },
+        {
+            "name": "Elder",
+            "photos": true,
+            "interview": true,
+            "interviewLink": "https://youtu.be/JZOabpqcFBs",
+            "video": true,
+            "videoLink": "https://youtu.be/hD09cJcR_rk",
+            "highlight": true,
+            "images": [
+                {
+                    "source": "assets/img/Elder/elder_2002.webp"
+                },
+                {
+                    "source": "assets/img/Elder/elder_2004.webp"
+                },
+                {
+                    "source": "assets/img/Elder/elder_2007.webp"
+                },
+                {
+                    "source": "assets/img/Elder/elder_2013.webp"
+                },
+                {
+                    "source": "assets/img/Elder/elder_2028.webp"
+                },
+                {
+                    "source": "assets/img/Elder/elder_2052.webp"
+                },
+                {
+                    "source": "assets/img/Elder/elder_2085.png"
+                }
+            ]
+        },
+        {
+            "name": "Electric Wizard"
+        },
+        {
+            "name": "Emil Bulls"
+        },
+        {
+            "name": "Emmure"
+        },
+        {
+            "name": "Emperor"
+        },
+        {
+            "name": "Enslaved",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/enslaved/enslaved_1750.webp"
+                },
+                {
+                    "source": "assets/img/enslaved/enslaved_1768.webp"
+                }
+            ]
+        },
+        {
+            "name": "Enter Shikari"
+        },
+        {
+            "name": "Entombed A.D."
+        },
+        {
+            "name": "Ethenos"
+        },
+        {
+            "name": "Evergreen Terrace"
+        },
+        {
+            "name": "Evoken"
+        },
+        {
+            "name": "Eyehategod",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/EHG/EHG_1423.png"
+                },
+                {
+                    "source": "assets/img/EHG/EHG_1424.png"
+                },
+                {
+                    "source": "assets/img/EHG/EHG_1433.png"
+                },
+                {
+                    "source": "assets/img/EHG/EHG_1446.png"
+                },
+                {
+                    "source": "assets/img/EHG/EHG_1452.png"
+                },
+                {
+                    "source": "assets/img/EHG/EHG_1480.png"
+                }
+            ]
+        },
+        {
+            "name": "Fallujah"
+        },
+        {
+            "name": "Fatso jetson"
+        },
+        {
+            "name": "Final Light"
+        },
+        {
+            "name": "Fit For An Autopsy"
+        },
+        {
+            "name": "Five the Hierophant"
+        },
+        {
+            "name": "Fleshless"
+        },
+        {
+            "name": "For The Fallen Dreams"
+        },
+        {
+            "name": "Frayle"
+        },
+        {
+            "name": "Frontierer"
+        },
+        {
+            "name": "Front line Assembly"
+        },
+        {
+            "name": "Frozen Soul"
+        },
+        {
+            "name": "Full of Hell"
+        },
+        {
+            "name": "Fu Manchu"
+        },
+        {
+            "name": "Gadget"
+        },
+        {
+            "name": "The Ghost Inside"
+        },
+        {
+            "name": "Ghostlimb"
+        },
+        {
+            "name": "Gnome"
+        },
+        {
+            "name": "Goatwhore"
+        },
+        {
+            "name": "God Is An Astronaut"
+        },
+        {
+            "name": "God Mother"
+        },
+        {
+            "name": "Godspeed You Black Emperor!"
+        },
+        {
+            "name": "Gojira",
+            "highlight": true
+        },
+        {
+            "name": "Gore"
+        },
+        {
+            "name": "Gorguts"
+        },
+        {
+            "name": "Gorod",
+            "highlight": true
+        },
+        {
+            "name": "Grails"
+        },
+        {
+            "name": "Green Lung"
+        },
+        {
+            "name": "Greenleaf"
+        },
+        {
+            "name": "Guns of Moropolis"
+        },
+        {
+            "name": "Hæster"
+        },
+        {
+            "name": "Haemorrhage"
+        },
+        {
+            "name": "Haken"
+        },
+        {
+            "name": "Hangman's Chair"
+        },
+        {
+            "name": "Harakiri For The Sky"
+        },
+        {
+            "name": "Hatebreed"
+        },
+        {
+            "name": "Health"
+        },
+        {
+            "name": "Heaven Shall Burn"
+        },
+        {
+            "name": "Heilung"
+        },
+        {
+            "name": "Helmet"
+        },
+        {
+            "name": "Helms Ale"
+        },
+        {
+            "name": "Hemelbestormer"
+        },
+        {
+            "name": "Hentai Corporation"
+        },
+        {
+            "name": "Hideous Divinity"
+        },
+        {
+            "name": "High on Fire"
+        },
+        {
+            "name": "Hippie Death Cult"
+        },
+        {
+            "name": "The Hirsch Effekt"
+        },
+        {
+            "name": "Hispyn"
+        },
+        {
+            "name": "Huracán"
+        },
+        {
+            "name": "Humanity's Last Breath"
+        },
+        {
+            "name": "Hypnos 69"
+        },
+        {
+            "name": "Hypocrisy"
+        },
+        {
+            "name": "I am Morbid"
+        },
+        {
+            "name": "Igorrr"
+        },
+        {
+            "name": "Ihsaahn"
+        },
+        {
+            "name": "I Killed The Prom Queen"
+        },
+        {
+            "name": "Ill Disposed"
+        },
+        {
+            "name": "Immolation"
+        },
+        {
+            "name": "Imperial Triumphant"
+        },
+        {
+            "name": "Incantation"
+        },
+        {
+            "name": "In Flames"
+        },
+        {
+            "name": "Intervals"
+        },
+        {
+            "name": "In The Midist Of Lions"
+        },
+        {
+            "name": "Jaye Jayle"
+        },
+        {
+            "name": "Jeff K"
+        },
+        {
+            "name": "Jo Quail"
+        },
+        {
+            "name": "Junius"
+        },
+        {
+            "name": "Kadavar"
+        },
+        {
+            "name": "Kaleidobolt"
+        },
+        {
+            "name": "Kataklsym"
+        },
+        {
+            "name": "Kraftklub"
+        },
+        {
+            "name": "Krisiun"
+        },
+        {
+            "name": "Kvelertak"
+        },
+        {
+            "name": "Laibach"
+        },
+        {
+            "name": "Lamb Of God"
+        },
+        {
+            "name": "Leprous"
+        },
+        {
+            "name": "Letvm"
+        },
+        {
+            "name": "Leech"
+        },
+        {
+            "name": "Lik"
+        },
+        {
+            "name": "Limp Bizkit"
+        },
+        {
+            "name": "Lionheart"
+        },
+        {
+            "name": "Living With Lions"
+        },
+        {
+            "name": "Lo!"
+        },
+        {
+            "name": "Long Distance Calling"
+        },
+        {
+            "name": "Los Bitchos"
+        },
+        {
+            "name": "Lowrider"
+        },
+        {
+            "name": "Madball"
+        },
+        {
+            "name": "Magna Cult"
+        },
+        {
+            "name": "Mammouth Weed Wizard Bastard"
+        },
+        {
+            "name": "Mantar",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/mantar/Mantar_0846.webp"
+                },
+                {
+                    "source": "assets/img/mantar/Mantar_0896.webp"
+                },
+                {
+                    "source": "assets/img/mantar/Mantar_0905.webp"
+                }
+            ]
+        },
+        {
+            "name": "Marduk"
+        },
+        {
+            "name": "Massive Attack",
+            "highlight": true
+        },
+        {
+            "name": "Mastodon",
+            "highlight": true
+        },
+        {
+            "name": "Maybeshewill"
+        },
+        {
+            "name": "Melt Banana"
+        },
+        {
+            "name": "Mercyful Fate"
+        },
+        {
+            "name": "Meshuggah",
+            "highlight": true
+        },
+        {
+            "name": "Mgła"
+        },
+        {
+            "name": "Ministry"
+        },
+        {
+            "name": "Misery Index"
+        },
+        {
+            "name": "Miss May I"
+        },
+        {
+            "name": "MNHM"
+        },
+        {
+            "name": "Mondo Generator"
+        },
+        {
+            "name": "Mono"
+        },
+        {
+            "name": "Monolord"
+        },
+        {
+            "name": "Moonspell"
+        },
+        {
+            "name": "More Than Crossed"
+        },
+        {
+            "name": "Mother Engine"
+        },
+        {
+            "name": "Mr Bison"
+        },
+        {
+            "name": "Mutiny On The Bounty"
+        },
+        {
+            "name": "Mutoid Man"
+        },
+        {
+            "name": "My Sleeping Karma"
+        },
+        {
+            "name": "Napalm Death",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2457.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2474.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2521.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2541.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2545.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2548.png"
+                }
+            ]
+        },
+        {
+            "name": "Napoleon"
+        },
+        {
+            "name": "Nasty"
+        },
+        {
+            "name": "Naxatras"
+        },
+        {
+            "name": "Neànder"
+        },
+        {
+            "name": "Neurosis",
+            "highlight": true
+        },
+        {
+            "name": "Neptunian Maximalism"
+        },
+        {
+            "name": "Nocturnus A.D."
+        },
+        {
+            "name": "No Omega"
+        },
+        {
+            "name": "Nile"
+        },
+        {
+            "name": "Nine Inch Nails"
+        },
+        {
+            "name": "The Number 12 Looks Like You"
+        },
+        {
+            "name": "Obey The Brave"
+        },
+        {
+            "name": "Obituary"
+        },
+        {
+            "name": "Obliteration"
+        },
+        {
+            "name": "The Ocean",
+            "photos": true,
+            "interview": true,
+            "interviewLink": "https://youtu.be/dig7Ti45bpQ",
+            "highlight": true,
+            "images": [
+                {
+                    "source": "assets/img/the ocean/The Ocean_0264.png"
+                },
+                {
+                    "source": "assets/img/the ocean/The Ocean_0273.png"
+                },
+                {
+                    "source": "assets/img/the ocean/The Ocean_0279.png"
+                },
+                {
+                    "source": "assets/img/the ocean/The Ocean_0286.png"
+                },
+                {
+                    "source": "assets/img/the ocean/The Ocean_0292.png"
+                },
+                {
+                    "source": "assets/img/the ocean/The Ocean_0298.png"
+                },
+                {
+                    "source": "assets/img/the ocean/The Ocean_0299.png"
+                }
+            ]
+        },
+        {
+            "name": "Ohhms"
+        },
+        {
+            "name": "Old Man Gloom"
+        },
+        {
+            "name": "Onslaught"
+        },
+        {
+            "name": "Opeth"
+        },
+        {
+            "name": "Orange Goblin"
+        },
+        {
+            "name": "Orbit culture"
+        },
+        {
+            "name": "Oslo Tapes"
+        },
+        {
+            "name": "Ovtrenoir"
+        },
+        {
+            "name": "Pain"
+        },
+        {
+            "name": "Pallbearer"
+        },
+        {
+            "name": "Paradise Lost"
+        },
+        {
+            "name": "Parkway Drive"
+        },
+        {
+            "name": "Pathology"
+        },
+        {
+            "name": "Part Chimp"
+        },
+        {
+            "name": "Perturbator"
+        },
+        {
+            "name": "Pestilence"
+        },
+        {
+            "name": "Pelican"
+        },
+        {
+            "name": "Pentagram"
+        },
+        {
+            "name": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs"
+        },
+        {
+            "name": "Pound"
+        },
+        {
+            "name": "Protest The Hero"
+        },
+        {
+            "name": "Psychlona"
+        },
+        {
+            "name": "Psycroptic"
+        },
+        {
+            "name": "Pupil Slicer"
+        },
+        {
+            "name": "Puscifer"
+        },
+        {
+            "name": "Radare"
+        },
+        {
+            "name": "Radar men from the moon"
+        },
+        {
+            "name": "Ranges"
+        },
+        {
+            "name": "Raised Fist"
+        },
+        {
+            "name": "Red Fang"
+        },
+        {
+            "name": "Red Kite"
+        },
+        {
+            "name": "Refused"
+        },
+        {
+            "name": "Reignwolf"
+        },
+        {
+            "name": "Revocation",
+            "highlight": true
+        },
+        {
+            "name": "Rivers of Nihil"
+        },
+        {
+            "name": "Rolo Tomassi"
+        },
+        {
+            "name": "Rosetta"
+        },
+        {
+            "name": "Rotten Sound"
+        },
+        {
+            "name": "Russian Circles",
+            "highlight": true
+        },
+        {
+            "name": "Sacramentum"
+        },
+        {
+            "name": "Sacred Reich"
+        },
+        {
+            "name": "Saint Vitus"
+        },
+        {
+            "name": "Sasquatsch"
+        },
+        {
+            "name": "Sâver"
+        },
+        {
+            "name": "Septicflesh",
+            "highlight": true
+        },
+        {
+            "name": "Sepultura"
+        },
+        {
+            "name": "Seven O that Spells"
+        },
+        {
+            "name": "Shredhead"
+        },
+        {
+            "name": "Sikth"
+        },
+        {
+            "name": "Skeletal Remains"
+        },
+        {
+            "name": "Skindred"
+        },
+        {
+            "name": "Skinless"
+        },
+        {
+            "name": "Sleep"
+        },
+        {
+            "name": "Slift"
+        },
+        {
+            "name": "Slomatics"
+        },
+        {
+            "name": "Slomosa"
+        },
+        {
+            "name": "Spirit Adrift"
+        },
+        {
+            "name": "Sodom"
+        },
+        {
+            "name": "Soen"
+        },
+        {
+            "name": "Soilwork"
+        },
+        {
+            "name": "Soreption"
+        },
+        {
+            "name": "Soup"
+        },
+        {
+            "name": "Sólstafir"
+        },
+        {
+            "name": "Suffocation"
+        },
+        {
+            "name": "Suicidal Tendencies"
+        },
+        {
+            "name": "Suicide Silence"
+        },
+        {
+            "name": "Sumac"
+        },
+        {
+            "name": "Steak",
+            "photos": true,
+            "video": true,
+            "videoLink": "https://youtu.be/5t5bAntDL38",
+            "images": [
+                {
+                    "source": "assets/img/steak/steak_1926.png"
+                },
+                {
+                    "source": "assets/img/steak/steak_1928.png"
+                },
+                {
+                    "source": "assets/img/steak/steak_1947.png"
+                },
+                {
+                    "source": "assets/img/steak/steak_1948.png"
+                },
+                {
+                    "source": "assets/img/steak/steak_1951.png"
+                },
+                {
+                    "source": "assets/img/steak/steak_1993.png"
+                }
+            ]
+        },
+        {
+            "name": "Stick To Your Guns"
+        },
+        {
+            "name": "Stories From The Lost"
+        },
+        {
+            "name": "Stöner"
+        },
+        {
+            "name": "Strigoi"
+        },
+        {
+            "name": "Stygian Bough"
+        },
+        {
+            "name": "Swallow the sun"
+        },
+        {
+            "name": "Sylosis"
+        },
+        {
+            "name": "System Of A Down"
+        },
+        {
+            "name": "Teethgrinder"
+        },
+        {
+            "name": "Telepathy"
+        },
+        {
+            "name": "Temple Fang"
+        },
+        {
+            "name": "Tenacious D"
+        },
+        {
+            "name": "Teresseract"
+        },
+        {
+            "name": "Territoire"
+        },
+        {
+            "name": "Terror"
+        },
+        {
+            "name": "Testament"
+        },
+        {
+            "name": "Thy Catafalque"
+        },
+        {
+            "name": "Toundra"
+        },
+        {
+            "name": "Tons"
+        },
+        {
+            "name": "Tribulation",
+            "highlight": true
+        },
+        {
+            "name": "Triptykon: Requiem",
+            "highlight": true
+        },
+        {
+            "name": "Trivium"
+        },
+        {
+            "name": "Truckfighters",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/truckfighters/Truckfighters_0410.png"
+                },
+                {
+                    "source": "assets/img/truckfighters/Truckfighters_0414.png"
+                },
+                {
+                    "source": "assets/img/truckfighters/Truckfighters_0415.png"
+                },
+                {
+                    "source": "assets/img/truckfighters/Truckfighters_0424.png"
+                },
+                {
+                    "source": "assets/img/truckfighters/Truckfighters_0427.png"
+                },
+                {
+                    "source": "assets/img/truckfighters/Truckfighters_0430.png"
+                }
+            ]
+        },
+        {
+            "name": "Tuskar"
+        },
+        {
+            "name": "Ufomammut"
+        },
+        {
+            "name": "Ulcerate"
+        },
+        {
+            "name": "Ulsect"
+        },
+        {
+            "name": "Ulver"
+        },
+        {
+            "name": "Uncured"
+        },
+        {
+            "name": "Undergang"
+        },
+        {
+            "name": "Unida"
+        },
+        {
+            "name": "Unleashed"
+        },
+        {
+            "name": "Unearth"
+        },
+        {
+            "name": "Une Misére"
+        },
+        {
+            "name": "Uncle Acid & The Deadbeats"
+        },
+        {
+            "name": "Vader"
+        },
+        {
+            "name": "Villagers of Ionna City"
+        },
+        {
+            "name": "Vio-lence"
+        },
+        {
+            "name": "Voivod"
+        },
+        {
+            "name": "Wadruna"
+        },
+        {
+            "name": "Walls Of Jericho"
+        },
+        {
+            "name": "Warsawwasraw"
+        },
+        {
+            "name": "Waste Of Space Orchestra"
+        },
+        {
+            "name": "Watain"
+        },
+        {
+            "name": "Watter"
+        },
+        {
+            "name": "Wear Your Wounds"
+        },
+        {
+            "name": "The Well"
+        },
+        {
+            "name": "While She Sleeps"
+        },
+        {
+            "name": "Whitechapel",
+            "highlight": true
+        },
+        {
+            "name": "Whores"
+        },
+        {
+            "name": "Wiegedood"
+        },
+        {
+            "name": "This Will Destroy You",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/TWDY/TWDY_0224.webp"
+                },
+                {
+                    "source": "assets/img/TWDY/TWDY_0240.webp"
+                }
+            ]
+        },
+        {
+            "name": "Witchcraft"
+        },
+        {
+            "name": "Wormed"
+        },
+        {
+            "name": "Worriedaboutsatan"
+        },
+        {
+            "name": "Wrong"
+        },
+        {
+            "name": "Wucan"
+        },
+        {
+            "name": "Wyatt E."
+        },
+        {
+            "name": "Year of no Light",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/yonl/yonl_0614.webp"
+                },
+                {
+                    "source": "assets/img/yonl/yonl_0639.webp"
+                },
+                {
+                    "source": "assets/img/yonl/yonl_0655.webp"
+                },
+                {
+                    "source": "assets/img/yonl/yonl_0687.webp"
+                }
+            ]
+        },
+        {
+            "name": "YOB"
+        },
+        {
+            "name": "Zatokrev"
+        },
+        {
+            "name": "Zhaoze"
+        },
+        {
+            "name": "Zola Jesus"
+        },
+        {
+            "name": "Zuriake"
+        },
+        {
+            "name": "Ken Mode",
+            "photos": true,
+            "interview": true,
+            "video": true,
+            "videoLink": "https://youtu.be/z2Sx2oMk9Dc",
+            "interviewLink": "https://youtu.be/n-hqESsfCHE",
+            "highlight": true,
+            "images": [
+                {
+                    "source": "assets/img/KM/KM_0065.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0070.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0072.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0079.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0088.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0092.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0094.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0098.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0099.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0105.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0108.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0111.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0113.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0114.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0115.png"
+                },
+                {
+                    "source": "assets/img/KM/KM_0119.png"
+                }
+            ]
+        },
+        {
+            "name": "Silverburn"
+        },
+        {
+            "name": "The Devils Trade"
+        },
+        {
+            "name": "Witching"
+        },
+        {
+            "name": "Panzerfaust"
+        },
+        {
+            "name": "Mispyrming"
+        },
+        {
+            "name": "Pupil Slicer"
+        },
+        {
+            "name": "Alcest"
+        },
+        {
+            "name": "Svalbard"
+        },
+        {
+            "name": "Lys Morke"
+        },
+        {
+            "name": "LLNN",
+            "photos": true,
+            "video": true,
+            "videoLink": "https://youtu.be/9J-UqgFQt4o",
+            "images": [
+                {
+                    "source": "assets/img/llnn/LLNN_0726.png"
+                }
+            ]
+        },
+        {
+            "name": "Omnium Gatherum"
+        },
+        {
+            "name": "Primordial"
+        },
+        {
+            "name": "Nebula",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/nebula/Nebula_0461.webp"
+                },
+                {
+                    "source": "assets/img/nebula/Nebula_0506.webp"
+                }
+            ]
+        },
+        {
+            "name": "Red Sun Atacan"
+        },
+        {
+            "name": "King Buffalo",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/KB/KB_0758.webp"
+                },
+                {
+                    "source": "assets/img/KB/KB_0806.webp"
+                },
+                {
+                    "source": "assets/img/KB/KB_0807.webp"
+                }
+            ]
+        },
+        {
+            "name": "Dead Witches",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/DW/DW_0823.webp"
+                },
+                {
+                    "source": "assets/img/DW/DW_0827.webp"
+                }
+            ]
+        },
+        {
+            "name": "Iron Jinn",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/IJ/IJ_0951.png"
+                },
+                {
+                    "source": "assets/img/IJ/IJ_0956.png"
+                },
+                {
+                    "source": "assets/img/IJ/IJ_0960.png"
+                }
+            ]
+        },
+        {
+            "name": "Khan",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Khan/Khan_0986.webp"
+                },
+                {
+                    "source": "assets/img/Khan/Khan_1043.webp"
+                },
+                {
+                    "source": "assets/img/Khan/Khan_1056.webp"
+                }
+            ]
+        },
+        {
+            "name": "Monkey 3",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/M3/M3_1217.webp"
+                },
+                {
+                    "source": "assets/img/M3/M3_1233.webp"
+                }
+            ]
+        },
+        {
+            "name": "Down Below"
+        },
+        {
+            "name": "The Obsessed",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/the obsessed/the obsessed_1284.webp"
+                },
+                {
+                    "source": "assets/img/the obsessed/the obsessed_1295.webp"
+                }
+            ]
+        },
+        {
+            "name": "Duel",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Duel/Duel_1324.png"
+                },
+                {
+                    "source": "assets/img/Duel/Duel_1333.webp"
+                },
+                {
+                    "source": "assets/img/Duel/Duel_1361.png"
+                },
+                {
+                    "source": "assets/img/Duel/Duel_1389.png"
+                },
+                {
+                    "source": "assets/img/Duel/Duel_1405.png"
+                },
+                {
+                    "source": "assets/img/Duel/Duel_1418.png"
+                }
+            ]
+        },
+        {
+            "name": "Howling Giant",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/HG/HG_1493.png"
+                },
+                {
+                    "source": "assets/img/HG/HG_1544.webp"
+                }
+            ]
+        },
+        {
+            "name": "Shellac",
+            "photos": true,
+            "video": true,
+            "videoLink": "https://youtu.be/lWWCOq0Zf84",
+            "images": [
+                {
+                    "source": "assets/img/shellac/Shellac_1850.webp"
+                },
+                {
+                    "source": "assets/img/shellac/Shellac_1875.webp"
+                },
+                {
+                    "source": "assets/img/shellac/Shellac_1889.webp"
+                }
+            ]
+        },
+        {
+            "name": "Fange",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/fange/Fange_0014.webp"
+                },
+                {
+                    "source": "assets/img/fange/Fange_0017.webp"
+                },
+                {
+                    "source": "assets/img/fange/Fange_0024.webp"
+                },
+                {
+                    "source": "assets/img/fange/Fange_0030.webp"
+                }
+            ]
+        },
+        {
+            "name": "Quicksand",
+            "photos": true,
+            "video": true,
+            "videoLink": "https://youtu.be/J9TqgonrgeA",
+            "images": [
+                {
+                    "source": "assets/img/quicksand/Quicksand_0312.webp"
+                },
+                {
+                    "source": "assets/img/quicksand/Quicksand_0327.webp"
+                },
+                {
+                    "source": "assets/img/quicksand/Quicksand_0348.webp"
+                },
+                {
+                    "source": "assets/img/quicksand/Quicksand_0352.webp"
+                },
+                {
+                    "source": "assets/img/quicksand/Quicksand_0391.webp"
+                },
+                {
+                    "source": "assets/img/quicksand/Quicksand_0393.webp"
+                }
+            ]
+        },
+        {
+            "name": "Death To All"
+        },
+        {
+            "name": "King Diamond"
+        },
+        {
+            "name": "Wormrot",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Wormrot/wormrot_2246.webp"
+                },
+                {
+                    "source": "assets/img/Wormrot/wormrot_2249.webp"
+                },
+                {
+                    "source": "assets/img/Wormrot/wormrot_2250.webp"
+                },
+                {
+                    "source": "assets/img/Wormrot/wormrot_2267.webp"
+                }
+            ]
+        },
+        {
+            "name": "Primitive Man",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2284.png"
+                },
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2299.png"
+                },
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2316.png"
+                },
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2322.png"
+                },
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2356.png"
+                }
+            ]
+        },
+        {
+            "name": "Master",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Master/M_2385.webp"
+                },
+                {
+                    "source": "assets/img/Master/M_2420.webp"
+                }
+            ]
+        }
+    ]
+}
