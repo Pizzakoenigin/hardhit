@@ -10,6 +10,7 @@ const renderGallery = contents => {
     for (let sec of contents.bandNames) {
         if (sec.images) {
             create(sec.name, 'h2', elements.gallery, false)
+            create(sec.description, 'p', elements.gallery, 'description')
             let divEl = create(false, 'div', elements.gallery, 'bandImg')
             for (let img of sec.images) {
                 imgDescArray.push(sec.name)

@@ -5,6 +5,7 @@
             "photos": true,
             "video": true,
             "videoLink": "https://youtu.be/--xOMN-R1YI",
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/astodan/Astodan_0519.webp"
@@ -29,6 +30,7 @@
             "interview": true,
             "interviewLink": "https://youtu.be/rR35a5AIEt8",
             "highlight": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/col/col_1066.webp"
@@ -447,6 +449,7 @@
             "video": true,
             "videoLink": "https://youtu.be/hD09cJcR_rk",
             "highlight": true,
+            "description": "Chemiefabrik Dresden 17.11.2023",
             "images": [
                 {
                     "source": "assets/img/Elder/elder_2002.webp"
@@ -486,6 +489,7 @@
         {
             "name": "Enslaved",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/enslaved/enslaved_1750.webp"
@@ -513,6 +517,7 @@
         {
             "name": "Eyehategod",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/EHG/EHG_1423.png"
@@ -803,6 +808,7 @@
         {
             "name": "Mantar",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/mantar/Mantar_0846.webp"
@@ -887,6 +893,7 @@
         {
             "name": "Napalm Death",
             "photos": true,
+            "description": "Z-Bau Nuremberg 28.02.2023",
             "images": [
                 {
                     "source": "assets/img/Napalm%20Death/ND_2457.png"
@@ -957,6 +964,7 @@
             "interview": true,
             "interviewLink": "https://youtu.be/dig7Ti45bpQ",
             "highlight": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/the ocean/The Ocean_0264.png"
@@ -1190,6 +1198,7 @@
             "photos": true,
             "video": true,
             "videoLink": "https://youtu.be/5t5bAntDL38",
+            "description": "Chemiefabrik Dresden 17.11.2023",
             "images": [
                 {
                     "source": "assets/img/steak/steak_1926.png"
@@ -1282,6 +1291,7 @@
         {
             "name": "Truckfighters",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/truckfighters/Truckfighters_0410.png"
@@ -1391,6 +1401,7 @@
         {
             "name": "This Will Destroy You",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/TWDY/TWDY_0224.webp"
@@ -1421,6 +1432,7 @@
         {
             "name": "Year of no Light",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/yonl/yonl_0614.webp"
@@ -1459,6 +1471,7 @@
             "videoLink": "https://youtu.be/z2Sx2oMk9Dc",
             "interviewLink": "https://youtu.be/n-hqESsfCHE",
             "highlight": true,
+            "description": "Ostpol Dresden 03.10.2023",
             "images": [
                 {
                     "source": "assets/img/KM/KM_0065.png"
@@ -1542,6 +1555,7 @@
             "photos": true,
             "video": true,
             "videoLink": "https://youtu.be/9J-UqgFQt4o",
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/llnn/LLNN_0726.png"
@@ -1557,6 +1571,7 @@
         {
             "name": "Nebula",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/nebula/Nebula_0461.webp"
@@ -1572,6 +1587,7 @@
         {
             "name": "King Buffalo",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/KB/KB_0758.webp"
@@ -1587,6 +1603,7 @@
         {
             "name": "Dead Witches",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/DW/DW_0823.webp"
@@ -1599,6 +1616,7 @@
         {
             "name": "Iron Jinn",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/IJ/IJ_0951.png"
@@ -1614,6 +1632,7 @@
         {
             "name": "Khan",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/Khan/Khan_0986.webp"
@@ -1629,6 +1648,7 @@
         {
             "name": "Monkey 3",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/M3/M3_1217.webp"
@@ -1644,6 +1664,7 @@
         {
             "name": "The Obsessed",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/the obsessed/the obsessed_1284.webp"
@@ -1656,6 +1677,7 @@
         {
             "name": "Duel",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/Duel/Duel_1324.png"
@@ -1680,6 +1702,7 @@
         {
             "name": "Howling Giant",
             "photos": true,
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/HG/HG_1493.png"
@@ -1694,6 +1717,7 @@
             "photos": true,
             "video": true,
             "videoLink": "https://youtu.be/lWWCOq0Zf84",
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/shellac/Shellac_1850.webp"
@@ -1709,6 +1733,7 @@
         {
             "name": "Fange",
             "photos": true,
+            "description": "Ostpol Dresden 03.10.2023",
             "images": [
                 {
                     "source": "assets/img/fange/Fange_0014.webp"
@@ -1729,6 +1754,7 @@
             "photos": true,
             "video": true,
             "videoLink": "https://youtu.be/J9TqgonrgeA",
+            "description": "Desertfest Antwerp 2023",
             "images": [
                 {
                     "source": "assets/img/quicksand/Quicksand_0312.webp"
@@ -1759,6 +1785,7 @@
         {
             "name": "Wormrot",
             "photos": true,
+            "description": "Z-Bau Nuremberg 28.02.2023",
             "images": [
                 {
                     "source": "assets/img/Wormrot/wormrot_2246.webp"
@@ -1777,6 +1804,7 @@
         {
             "name": "Primitive Man",
             "photos": true,
+            "description": "Z-Bau Nuremberg 28.02.2023",
             "images": [
                 {
                     "source": "assets/img/Primitive%20Man/PM_2284.png"
@@ -1798,6 +1826,7 @@
         {
             "name": "Master",
             "photos": true,
+            "description": "Z-Bau Nuremberg 28.02.2023",
             "images": [
                 {
                     "source": "assets/img/Master/M_2385.webp"
