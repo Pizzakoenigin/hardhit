@@ -7,11 +7,35 @@ const renderGallery = contents => {
     contents.bandNames.sort((a, b) => {
         return (a.name.toLowerCase() < b.name.toLowerCase()) ? -1 : 1;
     })
+
+    const letters = []
+
     for (let sec of contents.bandNames) {
         if (sec.images) {
-            create(sec.name, 'h2', elements.gallery, false)
-            create(sec.description, 'p', elements.gallery, 'description')
-            let divEl = create(false, 'div', elements.gallery, 'bandImg')
+            const firstLetter = sec.name.charAt(0)
+            if (!letters[firstLetter]) {
+                // letters.push(firstLetter);
+                let letterEl = create(firstLetter, 'a', elements.gallery, 'letterNav');
+                letters[firstLetter] = letterEl;
+                
+                letterEl.href=`#${firstLetter}`;
+                // letterEl.id = firstLetter
+            }
+        }
+    }
+
+
+
+    for (let sec of contents.bandNames) {
+
+
+
+        if (sec.images) {
+            let headerEl = create(sec.name, 'h2', elements.gallery, false);
+            headerEl.id= sec.name.charAt(0);
+            create(sec.description, 'p', elements.gallery, 'description');
+            let divEl = create(false, 'div', elements.gallery, 'bandImg');
+            
             for (let img of sec.images) {
                 imgDescArray.push(sec.name)
                 const imgEl = create(false, 'img', divEl,);
