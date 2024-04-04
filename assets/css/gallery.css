@@ -10,8 +10,14 @@
 
 .letterNav {
 	margin: 0 0.1rem;
+
+
+
 }
 
+.letterNav:hover {
+		border-bottom: none;
+	}
 
 .bandImg {
 	display: grid;
