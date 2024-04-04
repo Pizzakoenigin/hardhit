@@ -17,8 +17,8 @@ const renderGallery = contents => {
                 // letters.push(firstLetter);
                 let letterEl = create(firstLetter, 'a', elements.gallery, 'letterNav');
                 letters[firstLetter] = letterEl;
-                
-                letterEl.href=`#${firstLetter}`;
+
+                letterEl.href = `#${firstLetter}`;
                 // letterEl.id = firstLetter
             }
         }
@@ -27,15 +27,14 @@ const renderGallery = contents => {
 
 
     for (let sec of contents.bandNames) {
-
-
-
         if (sec.images) {
-            let headerEl = create(sec.name, 'h2', elements.gallery, false);
-            headerEl.id= sec.name.charAt(0);
-            create(sec.description, 'p', elements.gallery, 'description');
-            let divEl = create(false, 'div', elements.gallery, 'bandImg');
-            
+            let bandEl = create(false, 'div', elements.gallery, `bandEl`)
+            bandEl.id = sec.name;
+            let headerEl = create(sec.name, 'h2', bandEl, false);
+            headerEl.id = sec.name.charAt(0);
+            create(sec.description, 'p', bandEl, 'description');
+            let divEl = create(false, 'div', bandEl, `bandImg `);
+
             for (let img of sec.images) {
                 imgDescArray.push(sec.name)
                 const imgEl = create(false, 'img', divEl,);
@@ -44,6 +43,7 @@ const renderGallery = contents => {
         }
     }
     handleSlidshow();
+    handleSearch();
 }
 
 const handleSlidshow = () => {
@@ -121,6 +121,31 @@ const handleSlidshow = () => {
     })
 }
 
+const handleSearch = () => {
+    let searchbar = document.querySelector('#searchBand');
+    let searchButton = document.querySelector('#searchButton')
+    let bandDivs = document.querySelectorAll('.bandEl');
+    let foundElements = [];
+    searchButton.addEventListener('click', () => {
+        for (let i = 0; i < bandDivs.length; i++) {
+            if (searchbar.value.toLowerCase() == bandDivs[i].id.toLowerCase()) {
+                bandDivs[i].style.display = 'block'
+                document.querySelector('#nothingFoundMessage').innerHTML = ''
+            }
+
+            else {
+                bandDivs[i].style.display = 'none'
+                document.querySelector('#nothingFoundMessage').innerHTML = ''
+                foundElements.push(i)
+            }
+        }
+        if (foundElements.length === bandDivs.length) {
+            document.querySelector('#nothingFoundMessage').innerHTML = 'nothing found'
+        }
+    }
+    )
+}
+
 const handleLoad = evt => {
     let xhr = evt.target;
     if (xhr.status == 200) {
@@ -139,6 +164,7 @@ const initGallery = () => {
 
     elements.gallery = document.querySelector('#gallery')
     elements.imgDescText = document.querySelector('#imgDescription')
+    elements.content = document.querySelector('main')
 }
 
 document.addEventListener('DOMContentLoaded', initGallery)
