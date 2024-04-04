@@ -1,93 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-  	<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
-  	<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="css/normalize.css">  
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaqueries.css">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Hard Hit, Metal, Magazine, Music"> 
-    <meta name="viewport" content ="width=device-width,initial-scale=1">
-    <meta name="description" content="Hard Hit is an online Metal Magazine">
-    <meta name="author" content="Franziska Risperidon">  
-    <title>Hard Hit Magazine</title>
-  </head>
-  
-	<body>
-		<header>
-			<nav>
-				<a href="index.html"><img src="img/logo.png"></a>
-				<div class="buttons" id="buttons">
-					<!-- <a href="galerie.html">Galerie</a> -->
-					<a href="index.html" class="active">Main</a>
-					<a href="Alphabet.html">Seen live</a>
-					<a href="ueber.html">About me</a>
-					<a href="disclaimer.html">Disclaimer</a>
-					<!-- <a href="kontakt.html">contact</a> -->
-				</div>
-			</nav>
-		</header>
 
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="/assets/css/style.css">
+
+	<meta charset="utf-8">
+	<meta name="keywords" content="Hard Hit, Metal, Magazine, Music">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Hard Hit is an online Metal Magazine">
+	<meta name="author" content="Franziska Risperidon">
+	<title>Hard Hit Magazine</title>
+
+	<style></style>
+	<!-- <script src="/assets/js/alphabet.js"></script> -->
+	<script src="/assets/js/functions.js"></script>
+	<script src="/assets/js/index.js" defer></script>
+
+</head>
+
+<body>
+	<div class="header">
+		<a href="index.html"><img src="/assets/img/logo.png"></a>
+	</div>
+	<div class="navBar">
+		<a href="index.html" class="active">Main</a>
+		<a href="Alphabet.html">Seen live</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="ueber.html">About me</a>
+	</div>
+	<div id="index">
+
+	</div>
+	<main>
+		<h1>Welcome</h1>
+		<p>This is the Website of my Metal Music Fan Magazine.
+		</p>
+
+		<h1>Download</h1>
+		<p>Download any issue of hard hit magazin here. :)</p>
+		<br>
+
+		<div id="teaser"></div>
+
+		<p>Made in Affinity Publisher</p> <br>
+		<h1>Social</h1>
+			<a href="https://www.instagram.com/hard_hit_mag/">Instagram</a> <br>
+			<a href="https://www.youtube.com/channel/UCQWLVJnz8JPPRcQGWmVwisA">YouTube</a>
 		
-		<div class="index"></div>
-		<div class="container">
-			<main>
-				<h1>Welcome,</h1>
-				<p>This is the Website of my Metal Music Fan Magazine.
-				</p>
-				
-				<h1>Download,</h1>
-				<p>Feel free to download any issue of hard hit magazin here. :)</p>
-				 <br>
+		<br>
+		<br>
+		<a href="disclaimer.html" id="disclaimer">Disclaimer</a>
+	</main>
 
-					<a href="downloads/Hard Hit Volume 5.pdf" class="download"> Hard Hit Volume 5</a><br>
-					<p>Interview Johannes Persson (Cult Of Luna) | Interview Nick DiSalvo (Elder)</p> <br>
+	<footer>
+		<a href="#top">Back to top</a>
+	</footer>
+</body>
 
-					<a href="downloads/Hard Hit Volume 4.pdf" class="download">Hard Hit Volume 4</a> <br>
-					<p>My top 10 records of 2023 | Designed for Metal Interview: Headbang Design | Interview Ken Mode | Interview Paul Seidel (The Ocean)</p> <br>
-					
-					<a href="downloads/Hard Hit Volume 3.pdf" class="download">Hard Hit Volume 3</a> <br>
-					<p>1999 - a Mathcore year | Modern Mathcore bands | Designed for Metal: Grids | Festival review Brutal Assault</p> <br>
-
-					<a href="downloads/Hard Hit Volume 2.pdf" class="download">Hard Hit Volume 2 </a> <br>
-					<p>Music from Sweden | Designed for Metal: The rule of thirds | Justin Broadrick</p> <br>
-				 
-					<a href="downloads/Hard Hit Volume 1.pdf" class="download">Hard Hit Volume 1</a> <br>
-					<p>My top 20 records of 2020 | The Cavalera brothers</p> <br>
-
-
-
-
-
-
-				<h1>Enjoy,</h1>
-				<p>You find more content on my <a href="https://www.instagram.com/hard_hit_mag/">Instagram</a> and <a href="https://www.youtube.com/channel/UCQWLVJnz8JPPRcQGWmVwisA">YouTube</a> Channel.</p>
-			</main>
-			<footer>
-				<p> 
-
-				</p>
-				<a href="#top">Back to top</a>
-			</footer>
-		</div>
-
-			<script type="text/javascript">
-				window.onscroll = function(){stickyFunction()};
-				var header = document.getElementById("buttons");
-				var sticky = header.offsetTop;
-				function stickyFunction() {
-					if (window.pageYOffset > sticky) {
-						header.classList.add("sticky");
-					} else {
-						header.classList.remove("sticky")
-					}
-				}
-			</script>
-	</body>
 </html>

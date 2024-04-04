@@ -449,25 +449,22 @@
             "highlight": true,
             "images": [
                 {
-                    "source": "assets/img/Elder/elder_2002.png"
+                    "source": "assets/img/Elder/elder_2002.webp"
                 },
                 {
-                    "source": "assets/img/Elder/elder_2004.png"
+                    "source": "assets/img/Elder/elder_2004.webp"
                 },
                 {
-                    "source": "assets/img/Elder/elder_2007.png"
+                    "source": "assets/img/Elder/elder_2007.webp"
                 },
                 {
-                    "source": "assets/img/Elder/elder_2013.png"
+                    "source": "assets/img/Elder/elder_2013.webp"
                 },
                 {
-                    "source": "assets/img/Elder/elder_2028.png"
+                    "source": "assets/img/Elder/elder_2028.webp"
                 },
                 {
-                    "source": "assets/img/Elder/Elder_2029.png"
-                },
-                {
-                    "source": "assets/img/Elder/elder_2052.png"
+                    "source": "assets/img/Elder/elder_2052.webp"
                 },
                 {
                     "source": "assets/img/Elder/elder_2085.png"
@@ -808,13 +805,13 @@
             "photos": true,
             "images": [
                 {
-                    "source": "assets/img/mantar/Mantar_0846.png"
+                    "source": "assets/img/mantar/Mantar_0846.webp"
                 },
                 {
-                    "source": "assets/img/mantar/Mantar_0896.png"
+                    "source": "assets/img/mantar/Mantar_0896.webp"
                 },
                 {
-                    "source": "assets/img/mantar/Mantar_0905.png"
+                    "source": "assets/img/mantar/Mantar_0905.webp"
                 }
             ]
         },
@@ -888,7 +885,28 @@
             "name": "My Sleeping Karma"
         },
         {
-            "name": "Napalm Death"
+            "name": "Napalm Death",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2457.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2474.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2521.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2541.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2545.png"
+                },
+                {
+                    "source": "assets/img/Napalm%20Death/ND_2548.png"
+                }
+            ]
         },
         {
             "name": "Napoleon"
@@ -941,25 +959,25 @@
             "highlight": true,
             "images": [
                 {
-                    "source": "assets/img/the ocean/The Ocean_0264.webp"
+                    "source": "assets/img/the ocean/The Ocean_0264.png"
                 },
                 {
-                    "source": "assets/img/the ocean/The Ocean_0271.webp"
+                    "source": "assets/img/the ocean/The Ocean_0273.png"
                 },
                 {
-                    "source": "assets/img/the ocean/The Ocean_0273.webp"
+                    "source": "assets/img/the ocean/The Ocean_0279.png"
                 },
                 {
-                    "source": "assets/img/the ocean/The Ocean_0286.webp"
+                    "source": "assets/img/the ocean/The Ocean_0286.png"
                 },
                 {
-                    "source": "assets/img/the ocean/The Ocean_0292.webp"
+                    "source": "assets/img/the ocean/The Ocean_0292.png"
                 },
                 {
-                    "source": "assets/img/the ocean/The Ocean_0298.webp"
+                    "source": "assets/img/the ocean/The Ocean_0298.png"
                 },
                 {
-                    "source": "assets/img/the ocean/The Ocean_0299.webp"
+                    "source": "assets/img/the ocean/The Ocean_0299.png"
                 }
             ]
         },
@@ -1405,22 +1423,16 @@
             "photos": true,
             "images": [
                 {
-                    "source": "assets/img/yonl/yonl_0601.png"
+                    "source": "assets/img/yonl/yonl_0614.webp"
                 },
                 {
-                    "source": "assets/img/yonl/yonl_0609.png"
+                    "source": "assets/img/yonl/yonl_0639.webp"
                 },
                 {
-                    "source": "assets/img/yonl/yonl_0614.png"
+                    "source": "assets/img/yonl/yonl_0655.webp"
                 },
                 {
-                    "source": "assets/img/yonl/yonl_0639.png"
-                },
-                {
-                    "source": "assets/img/yonl/yonl_0655.png"
-                },
-                {
-                    "source": "assets/img/yonl/yonl_0687.png"
+                    "source": "assets/img/yonl/yonl_0687.webp"
                 }
             ]
         },
@@ -1547,10 +1559,10 @@
             "photos": true,
             "images": [
                 {
-                    "source": "assets/img/nebula/Nebula_0461.png"
+                    "source": "assets/img/nebula/Nebula_0461.webp"
                 },
                 {
-                    "source": "assets/img/nebula/Nebula_0506.png"
+                    "source": "assets/img/nebula/Nebula_0506.webp"
                 }
             ]
         },
@@ -1619,10 +1631,10 @@
             "photos": true,
             "images": [
                 {
-                    "source": "assets/img/M3/M3_1217.png"
+                    "source": "assets/img/M3/M3_1217.webp"
                 },
                 {
-                    "source": "assets/img/M3/M3_1233.png"
+                    "source": "assets/img/M3/M3_1233.webp"
                 }
             ]
         },
@@ -1684,13 +1696,13 @@
             "videoLink": "https://youtu.be/lWWCOq0Zf84",
             "images": [
                 {
-                    "source": "assets/img/shellac/Shellac_1850.png"
+                    "source": "assets/img/shellac/Shellac_1850.webp"
                 },
                 {
-                    "source": "assets/img/shellac/Shellac_1875.png"
+                    "source": "assets/img/shellac/Shellac_1875.webp"
                 },
                 {
-                    "source": "assets/img/shellac/Shellac_1889.png"
+                    "source": "assets/img/shellac/Shellac_1889.webp"
                 }
             ]
         },
@@ -1699,16 +1711,16 @@
             "photos": true,
             "images": [
                 {
-                    "source": "assets/img/fange/Fange_0014.png"
+                    "source": "assets/img/fange/Fange_0014.webp"
                 },
                 {
-                    "source": "assets/img/fange/Fange_0017.png"
+                    "source": "assets/img/fange/Fange_0017.webp"
                 },
                 {
-                    "source": "assets/img/fange/Fange_0024.png"
+                    "source": "assets/img/fange/Fange_0024.webp"
                 },
                 {
-                    "source": "assets/img/fange/Fange_0030.png"
+                    "source": "assets/img/fange/Fange_0030.webp"
                 }
             ]
         },
@@ -1743,6 +1755,57 @@
         },
         {
             "name": "King Diamond"
+        },
+        {
+            "name": "Wormrot",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Wormrot/wormrot_2246.webp"
+                },
+                {
+                    "source": "assets/img/Wormrot/wormrot_2249.webp"
+                },
+                {
+                    "source": "assets/img/Wormrot/wormrot_2250.webp"
+                },
+                {
+                    "source": "assets/img/Wormrot/wormrot_2267.webp"
+                }
+            ]
+        },
+        {
+            "name": "Primitive Man",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2284.png"
+                },
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2299.png"
+                },
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2316.png"
+                },
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2322.png"
+                },
+                {
+                    "source": "assets/img/Primitive%20Man/PM_2356.png"
+                }
+            ]
+        },
+        {
+            "name": "Master",
+            "photos": true,
+            "images": [
+                {
+                    "source": "assets/img/Master/M_2385.webp"
+                },
+                {
+                    "source": "assets/img/Master/M_2420.webp"
+                }
+            ]
         }
     ]
 }
