@@ -1,5 +1,4 @@
 'use strict';
-
 const pathToLoadGallery = '/assets/data/bands.json';
 const imgDescArray = []
 
@@ -7,24 +6,18 @@ const renderGallery = contents => {
     contents.bandNames.sort((a, b) => {
         return (a.name.toLowerCase() < b.name.toLowerCase()) ? -1 : 1;
     })
-
     const letters = []
 
     for (let sec of contents.bandNames) {
         if (sec.images) {
             const firstLetter = sec.name.charAt(0)
             if (!letters[firstLetter]) {
-                // letters.push(firstLetter);
                 let letterEl = create(firstLetter, 'a', elements.gallery, 'letterNav');
                 letters[firstLetter] = letterEl;
-
                 letterEl.href = `#${firstLetter}`;
-                // letterEl.id = firstLetter
             }
         }
     }
-
-
 
     for (let sec of contents.bandNames) {
         if (sec.images) {
@@ -47,7 +40,6 @@ const renderGallery = contents => {
 }
 
 const handleSlidshow = () => {
-    // let imagesSlideShow = 
     let arrayImages = Array.from(document.querySelectorAll('.bandImg img'));
     let currentImageIndex = 0;
     arrayImages.forEach((img) => {
