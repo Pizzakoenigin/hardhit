@@ -285,7 +285,6 @@
                 {
                     "source": "assets/img/carnifex/IMG_3811.webp"
                 }
-
             ]
         },
         {
@@ -1098,7 +1097,38 @@
         },
         {
             "name": "Revocation",
-            "highlight": true
+            "highlight": true,
+            "photos": true,
+            "description": "Technikum Munich 31.03.2024",
+            "images": [
+                {
+                    "source": "assets/img/revocation/IMG_3199.webp"
+                },
+                {
+                    "source": "assets/img/revocation/IMG_3275b.webp"
+                },
+                {
+                    "source": "assets/img/revocation/IMG_3297.webp"
+                },
+                {
+                    "source": "assets/img/revocation/IMG_3306b.webp"
+                },
+                {
+                    "source": "assets/img/revocation/IMG_3308.webp"
+                },
+                {
+                    "source": "assets/img/revocation/IMG_3314b.webp"
+                },
+                {
+                    "source": "assets/img/revocation/IMG_3385b.webp"
+                },
+                {
+                    "source": "assets/img/revocation/IMG_3402b.webp"
+                },
+                {
+                    "source": "assets/img/revocation/IMG_3423b.webp"
+                }
+            ]
         },
         {
             "name": "Rivers of Nihil"
