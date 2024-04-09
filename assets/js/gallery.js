@@ -4,7 +4,6 @@ const pathToLoadGallery = '/assets/data/bands.json';
 const imgDescArray = []
 
 const renderGallery = contents => {
-    console.log('renderGallery called');
     contents.bandNames.sort((a, b) => {
         return (a.name.toLowerCase() < b.name.toLowerCase()) ? -1 : 1;
     })

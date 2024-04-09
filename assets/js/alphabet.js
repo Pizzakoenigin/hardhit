@@ -76,7 +76,6 @@ const textSearch = () => {
             }
         }
         if (foundElements.length === bandDivs.length) {
-            console.log('check');
             document.querySelector('#nothingFoundMessage').innerHTML = `haven't seen that band (yet)`;
             create('reset', 'button', document.querySelector('#nothingFoundMessage'), 'resetButton');
             handleReset();
