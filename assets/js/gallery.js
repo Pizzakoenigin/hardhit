@@ -3,6 +3,7 @@ const pathToLoadGallery = '/assets/data/bands.json';
 const imgDescArray = []
 
 const renderGallery = contents => {
+    console.log('renderGallery called');
     contents.bandNames.sort((a, b) => {
         return (a.name.toLowerCase() < b.name.toLowerCase()) ? -1 : 1;
     })
@@ -117,7 +118,7 @@ const handleSearch = () => {
     let searchbar = document.querySelector('#searchBand');
     let searchButton = document.querySelector('#searchButton')
     let bandDivs = document.querySelectorAll('.bandEl');
-    
+
 
     searchbar.addEventListener('input', () => {
         searchbar.value = searchbar.value.replace(/[^A-Za-z0-9]/g, '');
@@ -125,7 +126,6 @@ const handleSearch = () => {
 
     searchButton.addEventListener('click', () => {
         let foundElements = [];
-        console.log(foundElements, bandDivs);
         for (let i = 0; i < bandDivs.length; i++) {
             if (searchbar.value.toLowerCase() == bandDivs[i].id.toLowerCase()) {
                 bandDivs[i].style.display = 'block';
@@ -141,11 +141,22 @@ const handleSearch = () => {
         }
         if (foundElements.length === bandDivs.length) {
             console.log('check');
-            document.querySelector('#nothingFoundMessage').innerHTML = 'nothing found'
+            document.querySelector('#nothingFoundMessage').innerHTML = 'nothing found';
+            create('reset', 'button', document.querySelector('#nothingFoundMessage'), 'resetButton');
+            handleReset();
         }
     }
     )
+
+    const handleReset = () => {
+        let resetButton = document.querySelector('#nothingFoundMessage');
+        resetButton.addEventListener('click', () => {
+            location.reload()
+        })
+    }
 }
+
+
 
 const handleLoad = evt => {
     let xhr = evt.target;
