@@ -278,7 +278,15 @@
             "name": "Carcass"
         },
         {
-            "name": "Carnifex"
+            "name": "Carnifex",
+            "photos": true,
+            "description": "Technikum Munich 31.03.2024",
+            "images": [
+                {
+                    "source": "assets/img/carnifex/IMG_3811.webp"
+                }
+
+            ]
         },
         {
             "name": "Carpenter Brut"
