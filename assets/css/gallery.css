@@ -11,6 +11,16 @@
 		margin: 1rem 0;
 	}
 
+	#searchInput {
+		input {
+			padding: 10px 10px 8px 10px;
+			font-size: 1.2em;
+		}
+
+	}
+
+
+
 	.letterNav {
 		margin: 0 0.1rem;
 	}
