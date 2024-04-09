@@ -58,12 +58,35 @@ li{
 	input {
 		padding: 10px 10px 8px 10px;
 		font-size: 1.2em;
+
 	}
 }
 
-#showVideo{
-	margin: 10px 0;
+#showVideoDiv{
+		/* margin: 10px 0; */
+	font-family: Bebas neue;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 10px 10px 8px 10px;
+	transition: all 0.3s ease;
+	font-size: 1.2em;
+	margin: 20px 0.5em;
+	text-align: center;
+	border: none;
+	display: inline;
+	#showVideo{
+
 }
+}
+
+#showVideoDiv:hover{
+	background-color: dimgrey;
+	color: white;
+}
+
+
+
 
 .hidden {
 	display:none;

@@ -59,6 +59,7 @@ const textSearch = () => {
                     top: targetPosition - offset,
                     behavior: 'smooth'
                 })
+                bandDivs[i].style.transition = 'background-color 0.6s ease-in-out, color 0.6s ease-in-out, padding 0.6s ease-in-out';
                 bandDivs[i].style.backgroundColor = 'red';
                 bandDivs[i].style.color = 'white'
                 bandDivs[i].style.padding = '0.2em'
@@ -76,7 +77,7 @@ const textSearch = () => {
         }
         if (foundElements.length === bandDivs.length) {
             console.log('check');
-            document.querySelector('#nothingFoundMessage').innerHTML = 'nothing found';
+            document.querySelector('#nothingFoundMessage').innerHTML = `haven't seen that band (yet)`;
             create('reset', 'button', document.querySelector('#nothingFoundMessage'), 'resetButton');
             handleReset();
         }
