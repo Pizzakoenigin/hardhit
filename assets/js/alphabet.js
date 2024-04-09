@@ -16,8 +16,10 @@ const renderBands = contents => {
             articles[firstChar] = create(false, 'article', elements.alphabetSection);
             create(firstChar, 'h2', articles[firstChar]);
         }
+        // let bandLink = create(false, 'a', articles[firstChar], `bandLink`)
         let elementBand = create(band.name, 'li', articles[firstChar], `bandEl`);
-        elementBand.id = band.name;
+        elementBand.id = band.name.toLowerCase();
+        // bandLink.href = band.name
         if (band.highlight) {
             elementBand.classList.add('highlight');
         }
@@ -47,18 +49,27 @@ const textSearch = () => {
     })
 
     searchButton.addEventListener('click', () => {
-        // console.log(searchbar.value);
         let foundElements = [];
         for (let i = 0; i < bandDivs.length; i++) {
-            // console.log(bandDivs[i].id);
             if (searchbar.value.toLowerCase() == bandDivs[i].id.toLowerCase()) {
-                bandDivs[i].style.display = 'block';
-                document.querySelector('#nothingFoundMessage').innerHTML = ''
-
+                let offset = 100; //necessary bc of the sticky header
+                let targetElement = bandDivs[i];
+                let targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                window.scrollTo({
+                    top: targetPosition - offset,
+                    behavior: 'smooth'
+                })
+                bandDivs[i].style.backgroundColor = 'red';
+                bandDivs[i].style.color = 'white'
+                bandDivs[i].style.padding = '0.2em'
+                setTimeout(() => {
+                    bandDivs[i].style.backgroundColor = 'transparent';
+                    bandDivs[i].style.color = 'black'
+                    bandDivs[i].style.padding = '0'
+                }, 3000)
             }
 
             else {
-                bandDivs[i].style.display = 'none';
                 document.querySelector('#nothingFoundMessage').innerHTML = '';
                 foundElements.push(i)
             }
