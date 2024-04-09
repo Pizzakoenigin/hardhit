@@ -119,7 +119,7 @@ const handleSearch = () => {
     let bandDivs = document.querySelectorAll('.bandEl');
     let foundElements = [];
 
-    searchbar.addEventListener('input', () =>{
+    searchbar.addEventListener('input', () => {
         searchbar.value = searchbar.value.replace(/[^A-Za-z0-9]/g, '');
     })
 
@@ -138,6 +138,7 @@ const handleSearch = () => {
         }
         if (foundElements.length === bandDivs.length) {
             document.querySelector('#nothingFoundMessage').innerHTML = 'nothing found'
+            foundElements = []
         }
     }
     )
