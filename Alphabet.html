@@ -20,6 +20,7 @@
 
 	<style></style>
 	<script src="/assets/js/functions.js"></script>
+	<script src="/assets/js/search.js"></script>
 	<script src="/assets/js/alphabet.js" defer></script>
 	<!-- <script src="/assets/js/index.js" defer></script> -->
 
@@ -34,7 +35,7 @@
 		<!-- <a href="galerie.html">Galerie</a> -->
 		<a href="index.html">Main</a>
 		<a href="Alphabet.html" class="active">Seen live</a>
-		<a href="gallery.html">Gallery</a>
+		<a href="gallery.html">Photos</a>
 		<a href="ueber.html">About me</a>
 		<!-- <a href="disclaimer.html">Disclaimer</a> -->
 		<!-- <a href="kontakt.html">contact</a> -->
@@ -44,9 +45,17 @@
 		<h1>Seen Live</h1>
 		<p>
 			Here I have listed all the bands I have seen live in alphabetical order.
-			Bands that I found particularly good I have <b>highlighted.</b>
-		</p>
-		<button id="showVideo">Show only bands with Video Content</button>
+			Bands that I found particularly good I have <b>highlighted.</b></p> <br>
+
+
+		<div id="searchInput">
+			<input type="text" name="search" id="searchBand">
+			<button id="searchButton">Search for a Band</button>
+			<button id="showVideo">Show only bands with Video Content</button>
+
+		</div>
+		<p id="nothingFoundMessage"></p>
+
 		<ul id="alphabet"></ul>
 		<p id="CountTotal"></p>
 	</main>
@@ -54,4 +63,5 @@
 		<a href="#top">Back to top</a>
 	</footer>
 </body>
+
 </html>

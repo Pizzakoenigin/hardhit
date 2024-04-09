@@ -16,7 +16,8 @@ const renderBands = contents => {
             articles[firstChar] = create(false, 'article', elements.alphabetSection);
             create(firstChar, 'h2', articles[firstChar]);
         }
-        let elementBand = create(band.name, 'li', articles[firstChar]);
+        let elementBand = create(band.name, 'li', articles[firstChar], `bandEl`);
+        elementBand.id = band.name;
         if (band.highlight) {
             elementBand.classList.add('highlight');
         }
@@ -32,7 +33,53 @@ const renderBands = contents => {
         }
     }
     document.querySelector("#CountTotal").textContent = `That's a total of ${contents.bandNames.length} bands.`;
+    textSearch();
 }
+
+const textSearch = () => {
+    let searchbar = document.querySelector('#searchBand');
+    let searchButton = document.querySelector('#searchButton')
+    let bandDivs = document.querySelectorAll('.bandEl');
+
+
+    searchbar.addEventListener('input', () => {
+        searchbar.value = searchbar.value.replace(/[^A-Za-z0-9]/g, '');
+    })
+
+    searchButton.addEventListener('click', () => {
+        // console.log(searchbar.value);
+        let foundElements = [];
+        for (let i = 0; i < bandDivs.length; i++) {
+            // console.log(bandDivs[i].id);
+            if (searchbar.value.toLowerCase() == bandDivs[i].id.toLowerCase()) {
+                bandDivs[i].style.display = 'block';
+                document.querySelector('#nothingFoundMessage').innerHTML = ''
+
+            }
+
+            else {
+                bandDivs[i].style.display = 'none';
+                document.querySelector('#nothingFoundMessage').innerHTML = '';
+                foundElements.push(i)
+            }
+        }
+        if (foundElements.length === bandDivs.length) {
+            console.log('check');
+            document.querySelector('#nothingFoundMessage').innerHTML = 'nothing found';
+            create('reset', 'button', document.querySelector('#nothingFoundMessage'), 'resetButton');
+            handleReset();
+        }
+    }
+    )
+
+    const handleReset = () => {
+        let resetButton = document.querySelector('#nothingFoundMessage');
+        resetButton.addEventListener('click', () => {
+            location.reload()
+        })
+    }
+}
+
 
 const handleClick = () => {
     const videosAr = document.querySelectorAll('article:not(.video)');

@@ -54,25 +54,32 @@ li{
 	font-weight: bold;
 }
 
-#showVideo{
-	background-color:lightgrey;
-	color: black;
-	border: none;
-	display: block;
-	margin: 10px auto;
-	padding: 5px;
-	font-size: 1.2em;
-	border-radius: 0;
-	cursor: pointer;
-	/* appearance: none; */
+#searchInput {
+	input {
+		padding: 10px 10px 8px 10px;
+		font-size: 1.2em;
+	}
 }
 
-#showVideo:hover {
-	/* padding: 10px; */
-	background-color: dimgrey;
-	color: white;
+#showVideo{
+	margin: 10px 0;
 }
 
 .hidden {
 	display:none;
 }
+
+/* background-color:lightgrey;
+	color: black;
+	border: none;
+	display: block; */
+	
+	/* padding: 5px;
+	font-size: 1.2em;
+	border-radius: 0;
+	cursor: pointer; */ */
+	/* appearance: none;
+}
+
+#showVideo:hover {
+	/* padding: 10px; */

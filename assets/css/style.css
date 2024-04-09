@@ -103,6 +103,7 @@ h1 {
 
 h2 {
 	font-size: 1.9em;
+	margin: 0;
 	padding: 6% 0 0 0;
 	color: rgb(220, 28, 28);
 }
@@ -162,6 +163,11 @@ button {
 	margin: 20px 0.5em;
 	text-align: center;
 	border: none;
+}
+
+button:hover {
+	background-color: dimgrey;
+	color: white;
 }
 
 #disclaimer {
