@@ -119,6 +119,12 @@ p {
 	display: inline;
 }
 
+label {
+	font-size: 1.2em;
+	font-family: Roboto;
+	display: block;
+}
+
 main {
 	text-align: left;
 	color: black;
@@ -132,6 +138,8 @@ img {
 	margin: 0;
 	padding: 0;
 }
+
+
 
 a {
 	font-size: 1.2em;

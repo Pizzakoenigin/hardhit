@@ -12,7 +12,7 @@ const renderGallery = contents => {
         if (sec.images) {
             const firstLetter = sec.name.charAt(0)
             if (!letters[firstLetter]) {
-                let letterEl = create(firstLetter, 'a', elements.gallery, 'letterNav');
+                let letterEl = create(firstLetter, 'a', document.querySelector('#jumpToLetter'), 'letterNav');
                 letters[firstLetter] = letterEl;
                 letterEl.href = `#${firstLetter}`;
             }
@@ -118,6 +118,11 @@ const handleSearch = () => {
     let searchButton = document.querySelector('#searchButton')
     let bandDivs = document.querySelectorAll('.bandEl');
     let foundElements = [];
+
+    searchbar.addEventListener('input', () =>{
+        searchbar.value = searchbar.value.replace(/[^A-Za-z0-9]/g, '');
+    })
+
     searchButton.addEventListener('click', () => {
         for (let i = 0; i < bandDivs.length; i++) {
             if (searchbar.value.toLowerCase() == bandDivs[i].id.toLowerCase()) {

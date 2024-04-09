@@ -33,7 +33,7 @@
 		<img src="assets/img/close.png" alt="" id="closingBtn">
 		<img src="assets/img/prev.png" alt="" id="prevBtn">
 		<img src="assets/img/next.png" alt="" id="nextBtn">
-		
+
 	</div>
 	<div id="container">
 		<div class="header">
@@ -48,14 +48,24 @@
 
 		<div id="imgGallery"></div>
 		<main>
-			<h1>Gallery</h1>
-			<p>Click on any image to see it in fullscreen. You can Navigate with the arrow keys or click the buttons.</p> <br>
-			<p>jump to letter:</p>
-			<label>Search for a band</label>
-			<input type="text" name="search" id="searchBand">
-			<button id="searchButton">Search for a Band</button >
+			<div id="gallery">
+				<h1>Gallery</h1>
+				<p>Click on any image to see it in fullscreen. You can Navigate the slideshow with the arrow keys or
+					click the buttons.</p>
+				<br>
+
+				<div id="searchInput">
+					<input type="text" name="search" id="searchBand">
+					<button id="searchButton">Search for a Band</button>
+				</div>
+
+				<div id="jumpToLetter">
+					<p>Jump to letter:</p>
+				</div>
 				<p id="nothingFoundMessage"></p>
-			<div id="gallery"></div>
+
+
+			</div>
 		</main>
 
 		<footer>
