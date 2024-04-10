@@ -5,12 +5,12 @@ const pathToLoadAlbums = '/assets/data/albums.json'
 const renderAlbums = contents => {
     create("About me", 'h1', document.querySelector('main'), false)
     create("My Name is Franziska, i am German and I love music.", 'p', document.querySelector('main'), false)
-    
+
     create("My 10 favourite albums", 'h1', document.querySelector('main'), false)
     let favouriteContainer = create(false, 'div', document.querySelector('main'), 'favourite')
 
-    for (const album of contents.albums){
-        let elementAlbum = create(false, 'article', favouriteContainer, 'elementAlbum');
+    for (const album of contents.albums) {
+        let elementAlbum = create(false, 'div', favouriteContainer, 'elementAlbum');
         let albumImage = create(false, 'img', elementAlbum, 'albumImage')
         albumImage.src = album.cover
         let albumContainer = create(false, 'div', elementAlbum, 'album')
@@ -19,10 +19,49 @@ const renderAlbums = contents => {
         create(album.position, 'span', elementAlbumText)
         create(album.artist + '<br>' + album.title, 'h3', elementAlbumText)
         create(album.description, 'p', albumContainer)
-        
-
     }
+    displayAlbums()
 }
+
+const displayAlbums = () => {
+    const container = document.querySelector('.favourite');
+
+    container.addEventListener('scroll', function() {
+      const albums = document.querySelectorAll('.elementAlbum');
+      const scrollTop = container.scrollTop;
+      
+    
+      albums.forEach(function(item, index) {
+        console.log(albums);
+        if (index === 0) {
+            
+          item.style.transform = `translateX(-${scrollTop}px)`;
+        } else {
+          item.style.transform = 'translateX(-100%)';
+        }
+      });
+    });
+}
+
+
+    // let albums = document.querySelectorAll('.elementAlbum')
+    // albums.forEach((album) => observer.observe(album))
+    // for (let i = 0; i < albums.length; i++){
+    //     albums.sstyle.zIndex = i;
+    // }
+
+
+// const observer = new IntersectionObserver((entries) => {
+//     entries.forEach((entry) => {
+//         if (entry.isIntersecting) {
+//             entry.target.classList.add('stacked');
+//             entry.target.classList.remove('removed');
+//         } else {
+//             entry.target.classList.add('removed');
+//             entry.target.classList.remove('stacked');
+//         }
+//     })
+// })
 
 const handleLoad = evt => {
     let xhr = evt.target;
