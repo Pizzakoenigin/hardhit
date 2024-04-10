@@ -44,7 +44,7 @@ body {
 	margin: 0px auto 0px auto;
 	padding-bottom: 4vh;
 	padding-top: 4vh;
-	width: 50%;
+	width: 20%;
 }
 
 .header nav a {
@@ -62,7 +62,8 @@ body {
 
 .navBar {
 	color: black;
-	font-size: 1.5em;
+	font-size: 1em;
+	letter-spacing: .2rem;
 	margin: 0px;
 	width: 100%;
 	background: lightgrey;
@@ -126,7 +127,7 @@ label {
 	display: block;
 }
 
-main {
+main, .main {
 	text-align: left;
 	color: black;
 	max-width: 65vw;

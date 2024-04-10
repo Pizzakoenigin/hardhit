@@ -3,11 +3,11 @@
 const pathToLoadAlbums = '/assets/data/albums.json'
 
 const renderAlbums = contents => {
-    create("About me", 'h1', document.querySelector('main'), false)
-    create("My Name is Franziska, i am German and I love music.", 'p', document.querySelector('main'), false)
+    create("About me", 'h1', document.querySelector('.main'), false)
+    create("My Name is Franziska, i am German and I love music.", 'p', document.querySelector('.main'), false)
 
-    create("My 10 favourite albums", 'h1', document.querySelector('main'), false)
-    let favouriteContainer = create(false, 'div', document.querySelector('main'), 'favourite')
+    create("My 10 favourite albums", 'h1', document.querySelector('.main'), false)
+    let favouriteContainer = create(false, 'div', document.querySelector('.main'), 'favourite')
 
     for (const album of contents.albums) {
         let elementAlbum = create(false, 'div', favouriteContainer, 'elementAlbum');
@@ -25,22 +25,27 @@ const renderAlbums = contents => {
 
 const displayAlbums = () => {
     const container = document.querySelector('.favourite');
+    const elements = document.querySelectorAll('.elementAlbum');
+
 
     container.addEventListener('scroll', function() {
-      const albums = document.querySelectorAll('.elementAlbum');
-      const scrollTop = container.scrollTop;
       
+      const scrollTop = container.scrollTop;
+      console.log(scrollTop);
+
+
+
     
-      albums.forEach(function(item, index) {
-        console.log(albums);
+      elements.forEach(function(element, index) {
         if (index === 0) {
-            
-          item.style.transform = `translateX(-${scrollTop}px)`;
+          element.style.transform = `translateX(-${scrollTop}px)`;
         } else {
-          item.style.transform = 'translateX(-100%)';
+          element.style.transform = 'translateX(0%)';
         }
       });
     });
+    
+    
 }
 
 
