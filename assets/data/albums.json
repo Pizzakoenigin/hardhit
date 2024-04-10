@@ -1,0 +1,79 @@
+{
+    "About me": [
+        {
+            "text": "My Name is Franziska, i am German and I love music."
+        }
+    ],
+    "My 10 favourite Records": [
+        {
+            "artist": "The Dillinger Escape Plan",
+            "title": "Miss Machine",
+            "position": "1",
+            "cover": "/assets/img/miss_machine.jpg",
+            "description": "Definitely my favorite album from my favorite band."
+        },
+        {
+            "artist": "Death",
+            "title": "Symbolic",
+            "position": "2",
+            "cover": "/assets/img/symbolic.jpg",
+            "description": "Death founded the genre. And until today there is no better death metal band."
+        },
+        {
+            "artist": "Neurosis",
+            "title": "Fires Within Fires",
+            "position": "3",
+            "cover": "/assets/img/fires_within_fires.jpg",
+            "description": "The band has been around for over 20 years and they just keep getting better. Hearing the album on vinyl is a revelation."
+        },
+        {
+            "artist": "Septiflesh",
+            "title": "Modern Primitiv",
+            "position": "4",
+            "cover": "/assets/img/septicflesh.jpg",
+            "description": "My favourite record of the year. This record is just amazing! The mix of Death Metal and orchestral music just works so well. On this record the two vocalists complement each other. They change between high singing and deep gutturals. The song Neuromancer has a beautiful acoustic guitar intro. It gets played again for the remarkable midpart of the song. I admire the talent of guitarist Christos Antoniou, who studied composition. He arranged all these beautiful orchestral parts."
+        },
+        {
+            "artist": "Elder",
+            "title": "Reflections Of A Floating World",
+            "position": "5",
+            "cover": "/assets/img/floating_world.jpg",
+            "description": "A Mix of Progressiv and Stoner Rock."
+        },
+        {
+            "artist": "Gorod",
+            "title": "A Maze Of Recycled Creeds",
+            "position": "6",
+            "cover": "/assets/img/gorod.jpg",
+            "description": "Technical Death Metal from France. The band is a blast live."
+        },
+        {
+            "artist": "Converge",
+            "title": "The Dusk In Us",
+            "position": "7",
+            "cover": "/assets/img/the_dusk.jpg",
+            "description": "This Record is my Jane Doe."
+        },
+        {
+            "artist": "If These Trees Could Talk",
+            "title": "Red Forest",
+            "position": "8",
+            "cover": "/assets/img/red_forest.jpg",
+            "description": "I love Post Rock."
+        },
+        {
+            "artist": "Meniscus",
+            "title": "Refractions",
+            "position": "9",
+            "cover": "/assets/img/meniscus.jpg",
+            "description": "Another supreme Post Rock Album."
+        },
+        {
+            "artist": "Russian Circles",
+            "title": "Guidance",
+            "position": "10",
+            "cover": "/assets/img/guidance.jpg",
+            "description": "Bassist Brian Cook founded the Mathcore genre with Botch. Now he plays Post Rock and I find that even better."
+        }
+    ]
+}
