@@ -1823,6 +1823,8 @@
         {
             "name": "Wormrot",
             "photos": true,
+            "video":true,
+            "videoLink": "https://youtu.be/BM2HOhDAyUY",
             "description": "Z-Bau Nuremberg 28.02.2023",
             "images": [
                 {
