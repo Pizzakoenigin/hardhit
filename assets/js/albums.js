@@ -29,21 +29,31 @@ const displayAlbums = () => {
 
 
     container.addEventListener('scroll', function() {
+        const scrollTop = container.scrollTop;
+        const containerHeight = container.clientHeight;
       
-      const scrollTop = container.scrollTop;
-      console.log(scrollTop);
+        elements.forEach(function(element, index) {
+          const elementOffsetTop = element.offsetTop;
+          const translation = Math.max(0, scrollTop - elementOffsetTop + containerHeight);
+          element.style.transform = `translateX(-${translation}px)`;
+        });
+      });
 
+    //   console.log(scrollTop,elements.length);
 
+    //     for(let i = 0; i < elements.length; i ++){
+    //         elements[i].style.transform = `translateX(-${scrollTop}px)`;
+    //     }
 
     
-      elements.forEach(function(element, index) {
-        if (index === 0) {
-          element.style.transform = `translateX(-${scrollTop}px)`;
-        } else {
-          element.style.transform = 'translateX(0%)';
-        }
-      });
-    });
+    //   elements.forEach(function(element, index) {
+    //     if (index === 0) {
+    //       element.style.transform = `translateX(-${scrollTop}px)`;
+    //     } else {
+    //       element.style.transform = 'translateX(0%)';
+    //     }
+    //   });
+    // });
     
     
 }
