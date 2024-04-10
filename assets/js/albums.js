@@ -3,22 +3,21 @@
 const pathToLoadAlbums = '/assets/data/albums.json'
 
 const renderAlbums = contents => {
-    create("About me", 'h2', document.querySelector('main'), false)
+    create("About me", 'h1', document.querySelector('main'), false)
     create("My Name is Franziska, i am German and I love music.", 'p', document.querySelector('main'), false)
+    
+    create("My 10 favourite albums", 'h1', document.querySelector('main'), false)
     let favouriteContainer = create(false, 'div', document.querySelector('main'), 'favourite')
 
     for (const album of contents.albums){
         let elementAlbum = create(false, 'article', favouriteContainer, 'elementAlbum');
         let albumImage = create(false, 'img', elementAlbum, 'albumImage')
         albumImage.src = album.cover
-
         let albumContainer = create(false, 'div', elementAlbum, 'album')
         let elementAlbumText = create(false, 'div', albumContainer, 'description')
 
         create(album.position, 'span', elementAlbumText)
         create(album.artist + '<br>' + album.title, 'h3', elementAlbumText)
-  
-        // create(album.title, 'h3', elementAlbumText)
         create(album.description, 'p', albumContainer)
         
 
