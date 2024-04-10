@@ -1,10 +1,5 @@
 {
-    "About me": [
-        {
-            "text": "My Name is Franziska, i am German and I love music."
-        }
-    ],
-    "My 10 favourite Records": [
+    "albums": [
         {
             "artist": "The Dillinger Escape Plan",
             "title": "Miss Machine",
