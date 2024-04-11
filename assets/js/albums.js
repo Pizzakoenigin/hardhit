@@ -26,44 +26,59 @@ const renderAlbums = contents => {
 const displayAlbums = () => {
     const container = document.querySelector('.favourite');
     const elements = document.querySelectorAll('.elementAlbum');
+    const scrollTop = container.scrollTop;
+
+    document.addEventListener('scroll', () => {
+        console.log('scrolling');
+        console.log(window.scrollY, window.pageYOffset);
 
 
-    container.addEventListener('scroll', function() {
-        const scrollTop = container.scrollTop;
-        const containerHeight = container.clientHeight;
-      
-        elements.forEach(function(element, index) {
-          const elementOffsetTop = element.offsetTop;
-          const translation = Math.max(0, scrollTop - elementOffsetTop + containerHeight);
-          element.style.transform = `translateX(-${translation}px)`;
-        });
-      });
 
-    //   console.log(scrollTop,elements.length);
+        elements[9].style.transform = `translateX(-${window.scrollY}px)`;
 
-    //     for(let i = 0; i < elements.length; i ++){
-    //         elements[i].style.transform = `translateX(-${scrollTop}px)`;
-    //     }
 
-    
-    //   elements.forEach(function(element, index) {
-    //     if (index === 0) {
-    //       element.style.transform = `translateX(-${scrollTop}px)`;
-    //     } else {
-    //       element.style.transform = 'translateX(0%)';
-    //     }
-    //   });
-    // });
-    
-    
+
+
+
+    })
 }
 
+// container.addEventListener('scroll', function() {
+//     const scrollTop = container.scrollTop;
+//     const containerHeight = container.clientHeight;
 
-    // let albums = document.querySelectorAll('.elementAlbum')
-    // albums.forEach((album) => observer.observe(album))
-    // for (let i = 0; i < albums.length; i++){
-    //     albums.sstyle.zIndex = i;
-    // }
+//     elements.forEach(function(element, index) {
+//       const elementOffsetTop = element.offsetTop;
+//       const translation = Math.max(0, scrollTop - elementOffsetTop + containerHeight);
+//       element.style.transform = `translateX(-${translation}px)`;
+//     });
+//   });
+
+//   console.log(scrollTop,elements.length);
+
+//     for(let i = 0; i < elements.length; i ++){
+//         elements[i].style.transform = `translateX(-${scrollTop}px)`;
+//     }
+
+
+//   elements.forEach(function(element, index) {
+//     if (index === 0) {
+//       element.style.transform = `translateX(-${scrollTop}px)`;
+//     } else {
+//       element.style.transform = 'translateX(0%)';
+//     }
+//   });
+// });
+
+
+
+
+
+// let albums = document.querySelectorAll('.elementAlbum')
+// albums.forEach((album) => observer.observe(album))
+// for (let i = 0; i < albums.length; i++){
+//     albums.sstyle.zIndex = i;
+// }
 
 
 // const observer = new IntersectionObserver((entries) => {
