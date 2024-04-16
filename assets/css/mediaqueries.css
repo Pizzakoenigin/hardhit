@@ -81,6 +81,9 @@
 }
 
 @media screen and (max-width: 450px) {
+	.header img {
+		width: 80%!important;
+	} 
 	.index {
 		height: 60vh;
 		background-position: 50% 0%;
