@@ -23,25 +23,25 @@ const renderAlbums = contents => {
     displayAlbums()
 }
 
-const displayAlbums = () => {
-    const container = document.querySelector('.favourite');
-    const elements = document.querySelectorAll('.elementAlbum');
-    const scrollTop = container.scrollTop;
+// const displayAlbums = () => {
+//     const container = document.querySelector('.favourite');
+//     const elements = document.querySelectorAll('.elementAlbum');
+//     const scrollTop = container.scrollTop;
 
-    document.addEventListener('scroll', () => {
-        console.log('scrolling');
-        console.log(window.scrollY, window.pageYOffset);
-
-
-
-        elements[9].style.transform = `translateX(-${window.scrollY}px)`;
+//     document.addEventListener('scroll', () => {
+//         console.log('scrolling');
+//         console.log(window.scrollY, window.pageYOffset);
 
 
 
+//         elements[9].style.transform = `translateX(-${window.scrollY}px)`;
 
 
-    })
-}
+
+
+
+//     })
+// }
 
 // container.addEventListener('scroll', function() {
 //     const scrollTop = container.scrollTop;
