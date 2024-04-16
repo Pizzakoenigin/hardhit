@@ -86,9 +86,27 @@
 		background-position: 50% 0%;
 	}
 
-	main {
-		max-width: 75vw;
+	.main, main {
+		max-width: 90vw!important;
 	}
+
+	#searchInput  {
+		#searchBand {
+				width: 50%
+		}
+
+		#showVideoDiv {
+			margin: 0;
+		}
+			
+	}
+
+	#alphabet {
+		article {
+			padding: 10px 0;
+		}
+	}
+	
 
 	.raster article {
 		width: 100%;
