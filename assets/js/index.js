@@ -3,13 +3,16 @@
 const pathToLoadPreview = '/assets/data/index.json';
 
 const renderPreview = contents => {
-    for (let sec of contents.sections){
-        create(sec.title, 'h2', elements.teaser, false )
-        create(sec.summary, 'p', elements.teaser, false)
-        let downloadEl = create(' Download', 'a', elements.teaser, false)
+    for (let sec of contents.sections) {
+        let imgEl = create(false, 'img', elements.teaser, 'magazineCover');
+        imgEl.src = sec.cover
+        create(sec.title, 'h2', elements.teaser, false)
+        let downloadEl = create('Download ', 'a', elements.teaser, false)
         downloadEl.href = sec.download
+        create(sec.summary, 'p', elements.teaser, false)
+
         let divEl = create(false, 'div', elements.teaser, 'preview')
-        for (let img of sec.images){
+        for (let img of sec.images) {
             const imgEl = create(false, 'img', divEl, 'previewImg');
             imgEl.src = img.source;
         }
