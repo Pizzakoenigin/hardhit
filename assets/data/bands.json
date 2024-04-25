@@ -74,7 +74,24 @@
             "name": "Abbath"
         },
         {
-            "name": "Aborted"
+            "name": "Aborted",
+            "photos":true,
+            "interview": true,
+            "interviewLink": "https://youtu.be/Zs_UENwhJzY",
+            "description": "Technikum Munich 31.03.2024",
+            "images": [
+                {
+                    "source": "assets/img/aborted/IMG_3077.webp"
+                },
+                {
+                    "source": "assets/img/aborted/IMG_3136.webp"
+                },
+                {
+                    "source": "assets/img/aborted/IMG_3144.webp"
+                }
+            ]
+
+
         },
         {
             "name": "Acid mammoth"
